@@ -29,6 +29,8 @@ Reference guides for Go: concurrency, stdlib, databases, HTTP, and more.
 | 17 | [17-defer-panic-recover.md](17-defer-panic-recover.md) | `defer`, `panic`, `recover` |
 | 18 | [18-errors.md](18-errors.md) | `errors` package: `Is`, `As`, wrapping, custom errors |
 | 19 | [19-io-reader-writer.md](19-io-reader-writer.md) | `io.Reader`, `io.Writer`, composition, helpers |
+| 20 | [20-import.md](20-import.md) | `import`: syntax, paths, alias, blank, side effects, what it is / isn’t |
+| 21 | [21-empty-interface-and-struct.md](21-empty-interface-and-struct.md) | `any` / `interface{}`, `struct{}`: usage, sets, signals, JSON |
 
 ---
 
@@ -51,6 +53,6 @@ You can say e.g. *“add the next item from the TOC”* or *“add Testing”*.
 ## Quick links
 
 - Concurrency: [01](01-goroutines-and-channels.md) · [02](02-select-and-context.md) · [14](14-context.md) · [16](16-sync.md)
-- Types & basics: [03](03-variable-declaration.md) · [04](04-short-declaration-reassignment.md) · [05](05-generics.md) · [06](06-interfaces-and-structs.md) · [07](07-nil.md) · [08](08-capitalization-visibility.md) · [15](15-make.md)
+- Types & basics: [03](03-variable-declaration.md) · [04](04-short-declaration-reassignment.md) · [05](05-generics.md) · [06](06-interfaces-and-structs.md) · [07](07-nil.md) · [08](08-capitalization-visibility.md) · [15](15-make.md) · [20](20-import.md) · [21](21-empty-interface-and-struct.md)
 - Stdlib & I/O: [09](09-json-and-metadata.md) · [10](10-http.md) · [17](17-defer-panic-recover.md) · [18](18-errors.md) · [19](19-io-reader-writer.md)
 - Data & services: [11](11-postgresql.md) · [12](12-kafka.md) · [13](13-grpc.md)
